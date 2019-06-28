@@ -1,0 +1,14 @@
+#principal{
+    width: 600px;
+    float: left;
+}
+
+#lateral{
+    width: 100px;
+    height: 100px;
+    float : right
+}
+
+img {
+    float:right
+}
