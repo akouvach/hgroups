@@ -124,6 +124,7 @@ app.get("/usuarios", (req, res, next) => {
 // datos.html
 app.use("/",express.static('www',{index:"datos.html"}));
 
+console.log(process.env.NODE_ENV, process.env.PORT);
 app.listen(process.env.PORT, () => {
  console.log("Server running on port ",process.env.PORT);
 });
