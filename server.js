@@ -37,11 +37,9 @@ var bodyParser = require('body-parser');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}));
 
-const dotenv = require('dotenv')
+const dotenv = require('dotenv');
 dotenv.config();
 
-console.log(process.env.DB_PASSWORD) // baconpancakes
-console.log(process.env.DB_USER) // root
 
 /*
 Dentro del servidor web existen las rutas... estas rutas son las 
