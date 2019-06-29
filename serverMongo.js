@@ -11,9 +11,6 @@ const url = 'mongodb://pepe:mafalda2003@ds141434.mlab.com:41434/participemos-arg
 // Database Name
 const dbName = 'participemos-arg';
 
-const ADODB = require('node-adodb');
-const connection = ADODB.open('Provider=Microsoft.Jet.OLEDB.4.0;Data Source=data.mdb;');
-
 var express = require("express");
 var app = express();
 var bodyParser = require('body-parser');
