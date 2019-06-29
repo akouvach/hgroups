@@ -7,8 +7,8 @@ function obtenerBase(){
         port="5000";
         url = "http://localhost:" + port; 
     } else {
-        port="5000";
-        url = "https://hgroups.herokuapps.com:" + port; 
+
+        url = "https://hgroups.herokuapp.com" ;
     }
     return (url);
 }
